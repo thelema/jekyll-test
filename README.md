@@ -38,3 +38,5 @@ If you want to start creating posts and pages, we've included the
 
 Includes configuration for deploying to [Netlify](https://www.netlify.com/) and
 [GitHub Pages](https://pages.github.com/) (via GitHub Actions).
+
+[![Open in Visual Studio Code](https://img.shields.io/badge/Open%20in-Visal%20Studio%20Code-blue?style=for-the-badge&logo=visualstudiocode)](https://open.vscode.dev/thelema/jekyll-test)
