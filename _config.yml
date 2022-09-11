@@ -9,11 +9,12 @@ baseurl: /jekyll-test
 ###############################################
 
 navbar-links:
-  About Us: "about.html"
+  About Us: "aboutus"
   Resources:
-    - Kimori Nagoya: "https://kimori-dojo.wixsite.com/aikido"
+    - Kimori Nagoya(EN): "https://kimori-dojo.wixsite.com/aikido/english"
+    - Kimori Nagoya(JP): "https://kimori-dojo.wixsite.com/aikido"
 #    - Learn markdown: "https://www.markdowntutorial.com/"
-  Contact Us: "contact.html"
+  Contact Us: "contact"
 
 ################
 # --- Logo --- #
