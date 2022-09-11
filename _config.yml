@@ -1,7 +1,7 @@
 title: Kimori Dojo SVB 
 description: Kimori Aikido Dojo's web presence  
 permalink: /:slugified_categories/:title/
-url: https://thelema.github.io/jekyll-test/
+url: https://thelema.github.io
 baseurl: /jekyll-test
 
 ###############################################
