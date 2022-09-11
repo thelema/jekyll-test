@@ -1,1 +1,1 @@
-Sitemap: https://thelema.github.io/jekyll-test//jekyll-test/sitemap.xml
+Sitemap: https://thelema.github.io/jekyll-test/sitemap.xml
