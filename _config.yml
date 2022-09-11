@@ -267,3 +267,5 @@ exclude:
   - README.md
   - LICENSE
   - Makefile
+
+plugins: [jekyll-paginate]
