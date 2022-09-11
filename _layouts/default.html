@@ -1,21 +1,25 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}" class="antialiased">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  {%- seo -%}
-  <link rel="stylesheet" href="{% link /assets/css/app.css %}">
-</head>
-<body class="bg-gray-100 text-gray-900 font-sans tracking-wider leading-normal">
-  {%- include header.html -%}
+---
+layout: base
+---
 
-  <main aria-label="Content">
-    {{ content }}
-  </main>
+<div class="intro-header"></div>
 
-  {%- include footer.html -%}
+<div role="main" class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
+  {% if page.before-content %}
+    <div class="before-content">
+      {% for file in page.before-content %}
+        {% include {{ file }} %}
+      {% endfor %}
+    </div>
+  {% endif %}
 
-  <script src="{% link /assets/js/app.js %}"></script>
-</body>
-</html>
+  {{ content }}
+
+  {% if page.after-content %}
+    <div class="after-content">
+      {% for file in page.after-content %}
+        {% include {{ file }} %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>
