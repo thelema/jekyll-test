@@ -8,7 +8,7 @@
         "postinstall": "bundle config set --local path 'vendor/bundle' && bundle install --jobs=4 --retry=3"
     },
     "dependencies": {
-        "alpinejs": "^3.2.3",
+        "alpinejs": "^3.2.3"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.3.3",
