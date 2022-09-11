@@ -1,13 +1,38 @@
 {
   "entrypoints": {
-    "js/app": {
+    "js/beautifuljekyll": {
       "js": [
-        "/assets/js/app.js"
+        "/assets/js/beautifuljekyll.js"
       ]
     },
-    "css/app": {
+    "js/staticman": {
+      "js": [
+        "/assets/js/staticman.js"
+      ]
+    },
+    "css/beautifuljekyll-minimal": {
       "css": [
-        "/assets/css/app.css"
+        "/assets/css/beautifuljekyll-minimal.css"
+      ]
+    },
+    "css/beautifuljekyll": {
+      "css": [
+        "/assets/css/beautifuljekyll.css"
+      ]
+    },
+    "css/bootstrap-social": {
+      "css": [
+        "/assets/css/bootstrap-social.css"
+      ]
+    },
+    "css/pygment_highlights": {
+      "css": [
+        "/assets/css/pygment_highlights.css"
+      ]
+    },
+    "css/staticman": {
+      "css": [
+        "/assets/css/staticman.css"
       ]
     }
   }
