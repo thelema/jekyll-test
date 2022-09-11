@@ -1,20 +1,16 @@
 {
     "private": true,
     "scripts": {
-        "start": "concurrently -k --restart-tries 3 --restart-after 3000 -p [{name}] -n webpack,jekyll -c yellow,cyan npm:watch:webpack npm:watch:jekyll",
-        "dev": "encore dev",
-        "prod": "encore prod",
-        "watch:webpack": "encore dev --watch",
+        "start": "concurrently -k --restart-tries 3 --restart-after 3000 -p [{name}] -n jekyll -c yellow,cyan npm:watch:jekyll",
         "watch:jekyll": "bundle exec jekyll serve --livereload --drafts --open",
         "lint": "eslint --cache .",
         "format": "npm run lint -- --fix",
         "postinstall": "bundle config set --local path 'vendor/bundle' && bundle install --jobs=4 --retry=3"
     },
     "dependencies": {
-        "alpinejs": "^3.2.3"
+        "alpinejs": "^3.2.3",
     },
     "devDependencies": {
-        "@symfony/webpack-encore": "^1.5.0",
         "@tailwindcss/forms": "^0.3.3",
         "@tailwindcss/typography": "^0.4.1",
         "autoprefixer": "^10.3.1",
